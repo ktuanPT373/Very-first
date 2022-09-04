@@ -6,7 +6,9 @@ def findDuplicate(a):
             return a[i]
         else:
             seen[a[i]] = False 
+
 print(findDuplicate([1,4,3,5,6,6,2]))
+
 b = {}
 b[5] = True
 b[6] = True
