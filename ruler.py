@@ -15,3 +15,8 @@ def draw_ruler(num_inches, major_length):
     for j in range(1,1 + num_inches):
         draw_interval(major_length - 1)
         draw_line(major_length, str(j))
+
+if __name__ == "__main__":
+    n_i = input().strip()
+    m_l = input().strip()
+    print(draw_ruler(n_i,m_l))
