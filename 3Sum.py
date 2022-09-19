@@ -35,7 +35,7 @@ def threeSum(nums):
                 while z >0 and numz[z] == numz[z-1]:
                     z -= 1
                 y += 1
-                z += 1    
+                z -= 1    
     return result
 
 print(threeSum([0,0,0]))
