@@ -1,4 +1,5 @@
 def powerSum(x, n):
+    
     if n == 0:
         return 1
     else:
@@ -7,4 +8,7 @@ def powerSum(x, n):
         if n%2 == 1:
             result *= x
         return result
+
 print(powerSum(2,1000))
+
+    
